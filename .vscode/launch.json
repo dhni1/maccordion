@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:maccordion}",
+            "name": "Debug Maccordion",
+            "target": "Maccordion",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Maccordion"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:maccordion}",
+            "name": "Release Maccordion",
+            "target": "Maccordion",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Maccordion"
+        }
+    ]
+}

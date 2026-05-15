@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/primary.swiftdeps"
+  },
+  "/Users/dhni/Desktop/code/maccordion/Sources/Maccordion/AccordionEngine.swift": {
+    "dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/AccordionEngine.d",
+    "object": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/AccordionEngine.swift.o",
+    "swiftmodule": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/AccordionEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/AccordionEngine.swiftdeps",
+    "diagnostics": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/AccordionEngine.dia"
+  },
+  "/Users/dhni/Desktop/code/maccordion/Sources/Maccordion/ContentView.swift": {
+    "dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/ContentView.d",
+    "object": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/ContentView.swift.o",
+    "swiftmodule": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/ContentView.dia"
+  },
+  "/Users/dhni/Desktop/code/maccordion/Sources/Maccordion/KeyboardMonitor.swift": {
+    "dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/KeyboardMonitor.d",
+    "object": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/KeyboardMonitor.swift.o",
+    "swiftmodule": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/KeyboardMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/KeyboardMonitor.swiftdeps",
+    "diagnostics": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/KeyboardMonitor.dia"
+  },
+  "/Users/dhni/Desktop/code/maccordion/Sources/Maccordion/LidAngleSensor.swift": {
+    "dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/LidAngleSensor.d",
+    "object": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/LidAngleSensor.swift.o",
+    "swiftmodule": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/LidAngleSensor~partial.swiftmodule",
+    "swift-dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/LidAngleSensor.swiftdeps",
+    "diagnostics": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/LidAngleSensor.dia"
+  },
+  "/Users/dhni/Desktop/code/maccordion/Sources/Maccordion/MaccordionApp.swift": {
+    "dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionApp.d",
+    "object": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionApp.swift.o",
+    "swiftmodule": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionApp.swiftdeps",
+    "diagnostics": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionApp.dia"
+  },
+  "/Users/dhni/Desktop/code/maccordion/Sources/Maccordion/MaccordionViewModel.swift": {
+    "dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionViewModel.d",
+    "object": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionViewModel.swift.o",
+    "swiftmodule": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionViewModel.swiftdeps",
+    "diagnostics": "/Users/dhni/Desktop/code/maccordion/.build/index-build/arm64-apple-macosx/debug/Maccordion.build/MaccordionViewModel.dia"
+  }
+}
