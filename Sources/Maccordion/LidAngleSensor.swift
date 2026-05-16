@@ -23,11 +23,7 @@ final class LidAngleSensor {
     private var device: IOHIDDevice?
 
     init() throws {
-        guard let manager = IOHIDManagerCreate(kCFAllocatorDefault, IOOptionBits(kIOHIDOptionsTypeNone)) else {
-            throw LidAngleSensorError.deviceUnavailable
-        }
-
-        self.manager = manager
+        self.manager = IOHIDManagerCreate(kCFAllocatorDefault, IOOptionBits(kIOHIDOptionsTypeNone))
         try self.connect()
     }
 

@@ -31,10 +31,16 @@ final class MaccordionViewModel: ObservableObject {
     private var activeKey: String?
 
     init() {
+        let sensor: LidAngleSensor?
+        let engine: AccordionEngine?
+
         do {
-            self.sensor = try LidAngleSensor()
-            self.engine = try AccordionEngine()
-            try self.engine?.start()
+            sensor = try LidAngleSensor()
+            engine = try AccordionEngine()
+            try engine?.start()
+
+            self.sensor = sensor
+            self.engine = engine
             self.state = AccordionVoiceState(
                 noteName: "-",
                 angle: 0,
