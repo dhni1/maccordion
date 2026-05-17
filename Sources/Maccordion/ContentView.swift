@@ -3,15 +3,20 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var viewModel = MaccordionViewModel()
     @State private var keyboardMonitor = KeyboardMonitor()
+    private let pageBackground = Color(red: 0.95, green: 0.93, blue: 0.88)
+    private let primaryText = Color(red: 0.14, green: 0.11, blue: 0.09)
+    private let secondaryText = Color(red: 0.34, green: 0.28, blue: 0.23)
+    private let cardBorder = Color(red: 0.82, green: 0.74, blue: 0.64)
 
     var body: some View {
         VStack(alignment: .leading, spacing: 18) {
             Text("Maccordion")
                 .font(.system(size: 34, weight: .bold, design: .rounded))
+                .foregroundStyle(primaryText)
 
             Text("맥북 힌지를 벨로우즈처럼 쓰는 아코디언 프로토타입")
                 .font(.headline)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(secondaryText)
 
             HStack(spacing: 14) {
                 statCard(title: "Angle", value: String(format: "%.1f°", viewModel.state.angle))
@@ -23,10 +28,12 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: 8) {
                 Text("Play")
                     .font(.headline)
+                    .foregroundStyle(primaryText)
                 Text("`A S D F G H J K L` 키를 누른 채로 화면을 여닫으면 벨로우즈 압력에 따라 소리가 변합니다.")
                     .fixedSize(horizontal: false, vertical: true)
+                    .foregroundStyle(primaryText)
                 Text(viewModel.state.status)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(secondaryText)
             }
 
             GeometryReader { geometry in
@@ -49,7 +56,7 @@ struct ContentView: View {
         }
         .padding(24)
         .frame(minWidth: 760, minHeight: 320)
-        .background(Color(red: 0.98, green: 0.97, blue: 0.93))
+        .background(pageBackground)
         .onAppear {
             keyboardMonitor.start(
                 onKeyDown: { event in viewModel.handleKeyDown(event) },
@@ -65,13 +72,18 @@ struct ContentView: View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title.uppercased())
                 .font(.caption.weight(.bold))
-                .foregroundStyle(.secondary)
+                .foregroundStyle(secondaryText)
             Text(value)
                 .font(.system(size: 24, weight: .semibold, design: .rounded))
+                .foregroundStyle(primaryText)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(16)
         .background(.white)
+        .overlay(
+            RoundedRectangle(cornerRadius: 16)
+                .stroke(cardBorder, lineWidth: 1)
+        )
         .clipShape(RoundedRectangle(cornerRadius: 16))
     }
 }
